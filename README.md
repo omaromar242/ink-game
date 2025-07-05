@@ -1965,30 +1965,51 @@ local function C_6a()
 local script = G2L["6a"];
 	local button = script.Parent
 	local stroke = button:FindFirstChildOfClass("UIStroke")
-	local player = game:GetService("Players").LocalPlayer
-	local remote = player.Character:WaitForChild("RemoteForQTE")
+	assert(stroke, "UIStroke not found on the button!")
 	
+	local Players = game:GetService("Players")
+	local player  = Players.LocalPlayer
+	
+	-- Variables for toggle state and loop control
 	local originalColor = stroke.Color
-	local toggled = false
-	local running = false
+	local toggled       = false
+	local running       = false
 	
-	local function startLoop()
-		running = true
-		while running do
-			remote:FireServer()
-			wait(0.3)
+	-- Cache the RemoteForQTE from your character (and on respawn)
+	local remoteQTE
+	local function setupRemote(char)
+		remoteQTE = char:WaitForChild("RemoteForQTE", 5)
+		if not remoteQTE then
+			warn("RemoteForQTE not found on character!")
 		end
 	end
 	
+	player.CharacterAdded:Connect(setupRemote)
+	if player.Character then
+		setupRemote(player.Character)
+	end
+	
+	-- The loop that fires the remote
+	local function startLoop()
+		running = true
+		while running do
+			if remoteQTE then
+				remoteQTE:FireServer()
+			end
+			task.wait(0.1)
+		end
+	end
+	
+	-- Click handler to toggle on/off
 	button.MouseButton1Click:Connect(function()
 		toggled = not toggled
 	
 		if toggled then
-			stroke.Color = Color3.fromRGB(0, 255, 0) -- Green
+			stroke.Color = Color3.fromRGB(0, 255, 0)  -- turn green
 			task.spawn(startLoop)
 		else
-			stroke.Color = originalColor
-			running = false
+			stroke.Color = originalColor           -- revert
+			running = false                         -- stop loop
 		end
 	end)
 	
