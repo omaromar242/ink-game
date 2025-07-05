@@ -420,7 +420,6 @@ G2L["2b"]["Thickness"] = 2;
 
 -- StarterGui.omarInkGame.Info.sigma.MainFrame
 G2L["2c"] = Instance.new("Frame", G2L["9"]);
-G2L["2c"]["Visible"] = false;
 G2L["2c"]["Active"] = true;
 G2L["2c"]["ZIndex"] = 0;
 G2L["2c"]["BorderSizePixel"] = 0;
@@ -960,6 +959,7 @@ G2L["6a"]["Name"] = [[realone]];
 
 -- StarterGui.omarInkGame.Info.sigma.MiscFrame
 G2L["6b"] = Instance.new("Frame", G2L["9"]);
+G2L["6b"]["Visible"] = false;
 G2L["6b"]["Active"] = true;
 G2L["6b"]["ZIndex"] = 0;
 G2L["6b"]["BorderSizePixel"] = 0;
@@ -1976,7 +1976,7 @@ local script = G2L["6a"];
 		running = true
 		while running do
 			remote:FireServer()
-			wait(0.5)
+			wait(0.3)
 		end
 	end
 	
