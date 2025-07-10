@@ -7,7 +7,7 @@
  Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
 ]=]
 
--- Instances: 164 | Scripts: 43 | Modules: 0 | Tags: 0
+-- Instances: 163 | Scripts: 42 | Modules: 0 | Tags: 0
 local G2L = {};
 
 -- StarterGui.omarInkGame
@@ -1067,360 +1067,355 @@ G2L["77"]["Name"] = [[seven1]];
 G2L["77"]["Position"] = UDim2.new(0.07297, 0, 0.17746, 0);
 
 
--- StarterGui.omarInkGame.Info.sigma.MainFrame.seven1.tracker
-G2L["78"] = Instance.new("LocalScript", G2L["77"]);
-G2L["78"]["Name"] = [[tracker]];
-
-
 -- StarterGui.omarInkGame.Info.sigma.MainFrame.red3
-G2L["79"] = Instance.new("TextButton", G2L["2c"]);
-G2L["79"]["TextWrapped"] = true;
-G2L["79"]["TextTruncate"] = Enum.TextTruncate.AtEnd;
-G2L["79"]["BorderSizePixel"] = 0;
-G2L["79"]["TextColor3"] = Color3.fromRGB(240, 240, 240);
-G2L["79"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["79"]["TextSize"] = 14;
-G2L["79"]["TextScaled"] = true;
-G2L["79"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["79"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["79"]["Size"] = UDim2.new(0.71832, 0, 0.0941, 0);
-G2L["79"]["Name"] = [[red3]];
-G2L["79"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["79"]["Text"] = [[Bigger Hitbox Close PPL]];
-G2L["79"]["Visible"] = false;
-G2L["79"]["Position"] = UDim2.new(0.1339, 0, 0.59933, 0);
+G2L["78"] = Instance.new("TextButton", G2L["2c"]);
+G2L["78"]["TextWrapped"] = true;
+G2L["78"]["TextTruncate"] = Enum.TextTruncate.AtEnd;
+G2L["78"]["BorderSizePixel"] = 0;
+G2L["78"]["TextColor3"] = Color3.fromRGB(240, 240, 240);
+G2L["78"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["78"]["TextSize"] = 14;
+G2L["78"]["TextScaled"] = true;
+G2L["78"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["78"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["78"]["Size"] = UDim2.new(0.71832, 0, 0.0941, 0);
+G2L["78"]["Name"] = [[red3]];
+G2L["78"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["78"]["Text"] = [[Bigger Hitbox Close PPL]];
+G2L["78"]["Visible"] = false;
+G2L["78"]["Position"] = UDim2.new(0.1339, 0, 0.59933, 0);
 
 
 -- StarterGui.omarInkGame.Info.sigma.MainFrame.red3.UICorner
-G2L["7a"] = Instance.new("UICorner", G2L["79"]);
-G2L["7a"]["CornerRadius"] = UDim.new(0, 10);
+G2L["79"] = Instance.new("UICorner", G2L["78"]);
+G2L["79"]["CornerRadius"] = UDim.new(0, 10);
 
 
 -- StarterGui.omarInkGame.Info.sigma.MainFrame.red3.UIStroke
-G2L["7b"] = Instance.new("UIStroke", G2L["79"]);
-G2L["7b"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["7b"]["Thickness"] = 1.7;
-G2L["7b"]["Color"] = Color3.fromRGB(155, 155, 155);
+G2L["7a"] = Instance.new("UIStroke", G2L["78"]);
+G2L["7a"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["7a"]["Thickness"] = 1.7;
+G2L["7a"]["Color"] = Color3.fromRGB(155, 155, 155);
 
 
 -- StarterGui.omarInkGame.Info.sigma.MainFrame.red3.soundclick
-G2L["7c"] = Instance.new("LocalScript", G2L["79"]);
-G2L["7c"]["Name"] = [[soundclick]];
+G2L["7b"] = Instance.new("LocalScript", G2L["78"]);
+G2L["7b"]["Name"] = [[soundclick]];
 
 
 -- StarterGui.omarInkGame.Info.sigma.MainFrame.red3.UIPadding
-G2L["7d"] = Instance.new("UIPadding", G2L["79"]);
-G2L["7d"]["PaddingLeft"] = UDim.new(0, 10);
+G2L["7c"] = Instance.new("UIPadding", G2L["78"]);
+G2L["7c"]["PaddingLeft"] = UDim.new(0, 10);
 
 
 -- StarterGui.omarInkGame.Info.sigma.MainFrame.red3.realone
-G2L["7e"] = Instance.new("LocalScript", G2L["79"]);
-G2L["7e"]["Name"] = [[realone]];
+G2L["7d"] = Instance.new("LocalScript", G2L["78"]);
+G2L["7d"]["Name"] = [[realone]];
 
 
 -- StarterGui.omarInkGame.Info.sigma.MainFrame.blue3
-G2L["7f"] = Instance.new("TextButton", G2L["2c"]);
-G2L["7f"]["TextWrapped"] = true;
-G2L["7f"]["TextTruncate"] = Enum.TextTruncate.AtEnd;
-G2L["7f"]["BorderSizePixel"] = 0;
-G2L["7f"]["TextColor3"] = Color3.fromRGB(240, 240, 240);
-G2L["7f"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["7f"]["TextSize"] = 14;
-G2L["7f"]["TextScaled"] = true;
-G2L["7f"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["7f"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["7f"]["Size"] = UDim2.new(0.71832, 0, 0.0941, 0);
-G2L["7f"]["Name"] = [[blue3]];
-G2L["7f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["7f"]["Text"] = [[Esp Exit]];
-G2L["7f"]["Visible"] = false;
-G2L["7f"]["Position"] = UDim2.new(0.13957, 0, 0.59642, 0);
+G2L["7e"] = Instance.new("TextButton", G2L["2c"]);
+G2L["7e"]["TextWrapped"] = true;
+G2L["7e"]["TextTruncate"] = Enum.TextTruncate.AtEnd;
+G2L["7e"]["BorderSizePixel"] = 0;
+G2L["7e"]["TextColor3"] = Color3.fromRGB(240, 240, 240);
+G2L["7e"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["7e"]["TextSize"] = 14;
+G2L["7e"]["TextScaled"] = true;
+G2L["7e"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["7e"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["7e"]["Size"] = UDim2.new(0.71832, 0, 0.0941, 0);
+G2L["7e"]["Name"] = [[blue3]];
+G2L["7e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["7e"]["Text"] = [[Esp Exit]];
+G2L["7e"]["Visible"] = false;
+G2L["7e"]["Position"] = UDim2.new(0.13957, 0, 0.59642, 0);
 
 
 -- StarterGui.omarInkGame.Info.sigma.MainFrame.blue3.UICorner
-G2L["80"] = Instance.new("UICorner", G2L["7f"]);
-G2L["80"]["CornerRadius"] = UDim.new(0, 10);
+G2L["7f"] = Instance.new("UICorner", G2L["7e"]);
+G2L["7f"]["CornerRadius"] = UDim.new(0, 10);
 
 
 -- StarterGui.omarInkGame.Info.sigma.MainFrame.blue3.UIStroke
-G2L["81"] = Instance.new("UIStroke", G2L["7f"]);
-G2L["81"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["81"]["Thickness"] = 1.7;
-G2L["81"]["Color"] = Color3.fromRGB(155, 155, 155);
+G2L["80"] = Instance.new("UIStroke", G2L["7e"]);
+G2L["80"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["80"]["Thickness"] = 1.7;
+G2L["80"]["Color"] = Color3.fromRGB(155, 155, 155);
 
 
 -- StarterGui.omarInkGame.Info.sigma.MainFrame.blue3.soundclick
-G2L["82"] = Instance.new("LocalScript", G2L["7f"]);
-G2L["82"]["Name"] = [[soundclick]];
+G2L["81"] = Instance.new("LocalScript", G2L["7e"]);
+G2L["81"]["Name"] = [[soundclick]];
 
 
 -- StarterGui.omarInkGame.Info.sigma.MainFrame.blue3.UIPadding
-G2L["83"] = Instance.new("UIPadding", G2L["7f"]);
-G2L["83"]["PaddingLeft"] = UDim.new(0, 10);
+G2L["82"] = Instance.new("UIPadding", G2L["7e"]);
+G2L["82"]["PaddingLeft"] = UDim.new(0, 10);
 
 
 -- StarterGui.omarInkGame.Info.sigma.MainFrame.blue3.realone
-G2L["84"] = Instance.new("LocalScript", G2L["7f"]);
-G2L["84"]["Name"] = [[realone]];
+G2L["83"] = Instance.new("LocalScript", G2L["7e"]);
+G2L["83"]["Name"] = [[realone]];
 
 
 -- StarterGui.omarInkGame.Info.sigma.MainFrame.red1
-G2L["85"] = Instance.new("TextButton", G2L["2c"]);
-G2L["85"]["TextWrapped"] = true;
-G2L["85"]["TextTruncate"] = Enum.TextTruncate.AtEnd;
-G2L["85"]["BorderSizePixel"] = 0;
-G2L["85"]["TextColor3"] = Color3.fromRGB(240, 240, 240);
-G2L["85"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["85"]["TextSize"] = 14;
-G2L["85"]["TextScaled"] = true;
-G2L["85"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["85"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["85"]["Size"] = UDim2.new(0.71832, 0, 0.11259, 0);
-G2L["85"]["Name"] = [[red1]];
-G2L["85"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["85"]["Text"] = [[Auto Attack 1 blue]];
-G2L["85"]["Visible"] = false;
-G2L["85"]["Position"] = UDim2.new(0.1339, 0, 0.32873, 0);
+G2L["84"] = Instance.new("TextButton", G2L["2c"]);
+G2L["84"]["TextWrapped"] = true;
+G2L["84"]["TextTruncate"] = Enum.TextTruncate.AtEnd;
+G2L["84"]["BorderSizePixel"] = 0;
+G2L["84"]["TextColor3"] = Color3.fromRGB(240, 240, 240);
+G2L["84"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["84"]["TextSize"] = 14;
+G2L["84"]["TextScaled"] = true;
+G2L["84"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["84"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["84"]["Size"] = UDim2.new(0.71832, 0, 0.11259, 0);
+G2L["84"]["Name"] = [[red1]];
+G2L["84"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["84"]["Text"] = [[Auto Attack 1 blue]];
+G2L["84"]["Visible"] = false;
+G2L["84"]["Position"] = UDim2.new(0.1339, 0, 0.32873, 0);
 
 
 -- StarterGui.omarInkGame.Info.sigma.MainFrame.red1.UICorner
-G2L["86"] = Instance.new("UICorner", G2L["85"]);
-G2L["86"]["CornerRadius"] = UDim.new(0, 10);
+G2L["85"] = Instance.new("UICorner", G2L["84"]);
+G2L["85"]["CornerRadius"] = UDim.new(0, 10);
 
 
 -- StarterGui.omarInkGame.Info.sigma.MainFrame.red1.UIStroke
-G2L["87"] = Instance.new("UIStroke", G2L["85"]);
-G2L["87"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["87"]["Thickness"] = 1.7;
-G2L["87"]["Color"] = Color3.fromRGB(155, 155, 155);
+G2L["86"] = Instance.new("UIStroke", G2L["84"]);
+G2L["86"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["86"]["Thickness"] = 1.7;
+G2L["86"]["Color"] = Color3.fromRGB(155, 155, 155);
 
 
 -- StarterGui.omarInkGame.Info.sigma.MainFrame.red1.soundclick
-G2L["88"] = Instance.new("LocalScript", G2L["85"]);
-G2L["88"]["Name"] = [[soundclick]];
+G2L["87"] = Instance.new("LocalScript", G2L["84"]);
+G2L["87"]["Name"] = [[soundclick]];
 
 
 -- StarterGui.omarInkGame.Info.sigma.MainFrame.red1.UIPadding
-G2L["89"] = Instance.new("UIPadding", G2L["85"]);
-G2L["89"]["PaddingLeft"] = UDim.new(0, 10);
+G2L["88"] = Instance.new("UIPadding", G2L["84"]);
+G2L["88"]["PaddingLeft"] = UDim.new(0, 10);
 
 
 -- StarterGui.omarInkGame.Info.sigma.MainFrame.red1.realone
-G2L["8a"] = Instance.new("LocalScript", G2L["85"]);
-G2L["8a"]["Name"] = [[realone]];
+G2L["89"] = Instance.new("LocalScript", G2L["84"]);
+G2L["89"]["Name"] = [[realone]];
 
 
 -- StarterGui.omarInkGame.Info.sigma.MainFrame.red2
-G2L["8b"] = Instance.new("TextButton", G2L["2c"]);
-G2L["8b"]["TextWrapped"] = true;
-G2L["8b"]["TextTruncate"] = Enum.TextTruncate.AtEnd;
-G2L["8b"]["BorderSizePixel"] = 0;
-G2L["8b"]["TextColor3"] = Color3.fromRGB(240, 240, 240);
-G2L["8b"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["8b"]["TextSize"] = 14;
-G2L["8b"]["TextScaled"] = true;
-G2L["8b"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["8b"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["8b"]["Size"] = UDim2.new(0.71832, 0, 0.0941, 0);
-G2L["8b"]["Name"] = [[red2]];
-G2L["8b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["8b"]["Text"] = [[Esp Blue Team]];
-G2L["8b"]["Visible"] = false;
-G2L["8b"]["Position"] = UDim2.new(0.1339, 0, 0.47685, 0);
+G2L["8a"] = Instance.new("TextButton", G2L["2c"]);
+G2L["8a"]["TextWrapped"] = true;
+G2L["8a"]["TextTruncate"] = Enum.TextTruncate.AtEnd;
+G2L["8a"]["BorderSizePixel"] = 0;
+G2L["8a"]["TextColor3"] = Color3.fromRGB(240, 240, 240);
+G2L["8a"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["8a"]["TextSize"] = 14;
+G2L["8a"]["TextScaled"] = true;
+G2L["8a"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["8a"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["8a"]["Size"] = UDim2.new(0.71832, 0, 0.0941, 0);
+G2L["8a"]["Name"] = [[red2]];
+G2L["8a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["8a"]["Text"] = [[Esp Blue Team]];
+G2L["8a"]["Visible"] = false;
+G2L["8a"]["Position"] = UDim2.new(0.1339, 0, 0.47685, 0);
 
 
 -- StarterGui.omarInkGame.Info.sigma.MainFrame.red2.UICorner
-G2L["8c"] = Instance.new("UICorner", G2L["8b"]);
-G2L["8c"]["CornerRadius"] = UDim.new(0, 10);
+G2L["8b"] = Instance.new("UICorner", G2L["8a"]);
+G2L["8b"]["CornerRadius"] = UDim.new(0, 10);
 
 
 -- StarterGui.omarInkGame.Info.sigma.MainFrame.red2.UIStroke
-G2L["8d"] = Instance.new("UIStroke", G2L["8b"]);
-G2L["8d"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["8d"]["Thickness"] = 1.7;
-G2L["8d"]["Color"] = Color3.fromRGB(155, 155, 155);
+G2L["8c"] = Instance.new("UIStroke", G2L["8a"]);
+G2L["8c"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["8c"]["Thickness"] = 1.7;
+G2L["8c"]["Color"] = Color3.fromRGB(155, 155, 155);
 
 
 -- StarterGui.omarInkGame.Info.sigma.MainFrame.red2.soundclick
-G2L["8e"] = Instance.new("LocalScript", G2L["8b"]);
-G2L["8e"]["Name"] = [[soundclick]];
+G2L["8d"] = Instance.new("LocalScript", G2L["8a"]);
+G2L["8d"]["Name"] = [[soundclick]];
 
 
 -- StarterGui.omarInkGame.Info.sigma.MainFrame.red2.UIPadding
-G2L["8f"] = Instance.new("UIPadding", G2L["8b"]);
-G2L["8f"]["PaddingLeft"] = UDim.new(0, 10);
+G2L["8e"] = Instance.new("UIPadding", G2L["8a"]);
+G2L["8e"]["PaddingLeft"] = UDim.new(0, 10);
 
 
 -- StarterGui.omarInkGame.Info.sigma.MainFrame.red2.realone
-G2L["90"] = Instance.new("LocalScript", G2L["8b"]);
-G2L["90"]["Name"] = [[realone]];
+G2L["8f"] = Instance.new("LocalScript", G2L["8a"]);
+G2L["8f"]["Name"] = [[realone]];
 
 
--- StarterGui.omarInkGame.Info.sigma.MainFrame.first1
-G2L["91"] = Instance.new("TextLabel", G2L["2c"]);
-G2L["91"]["TextWrapped"] = true;
-G2L["91"]["BorderSizePixel"] = 0;
-G2L["91"]["TextSize"] = 14;
-G2L["91"]["TextScaled"] = true;
-G2L["91"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["91"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["91"]["TextColor3"] = Color3.fromRGB(178, 0, 0);
-G2L["91"]["BackgroundTransparency"] = 1;
-G2L["91"]["Size"] = UDim2.new(0.961, 0, 0.15324, 0);
-G2L["91"]["Visible"] = false;
-G2L["91"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["91"]["Text"] = [[Only Works if the Target is Injured And not Carried By another player]];
-G2L["91"]["Name"] = [[first1]];
-G2L["91"]["Position"] = UDim2.new(0.01645, 0, 0.81148, 0);
+-- StarterGui.omarInkGame.Info.sigma.MainFrame.first1Label
+G2L["90"] = Instance.new("TextLabel", G2L["2c"]);
+G2L["90"]["TextWrapped"] = true;
+G2L["90"]["BorderSizePixel"] = 0;
+G2L["90"]["TextSize"] = 14;
+G2L["90"]["TextScaled"] = true;
+G2L["90"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["90"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["90"]["TextColor3"] = Color3.fromRGB(178, 0, 0);
+G2L["90"]["BackgroundTransparency"] = 1;
+G2L["90"]["Size"] = UDim2.new(0.961, 0, 0.15324, 0);
+G2L["90"]["Visible"] = false;
+G2L["90"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["90"]["Text"] = [[Only Works if the Target is Injured And not Carried By another player]];
+G2L["90"]["Name"] = [[first1Label]];
+G2L["90"]["Position"] = UDim2.new(0.01645, 0, 0.81148, 0);
 
 
 -- StarterGui.omarInkGame.Info.sigma.MiscFrame
-G2L["92"] = Instance.new("Frame", G2L["9"]);
-G2L["92"]["Visible"] = false;
-G2L["92"]["Active"] = true;
-G2L["92"]["ZIndex"] = 0;
-G2L["92"]["BorderSizePixel"] = 0;
-G2L["92"]["BackgroundColor3"] = Color3.fromRGB(53, 53, 53);
-G2L["92"]["Size"] = UDim2.new(0.7802, 0, 1.00699, 0);
-G2L["92"]["Position"] = UDim2.new(0.2198, 0, 0, 0);
-G2L["92"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["92"]["Name"] = [[MiscFrame]];
-G2L["92"]["BackgroundTransparency"] = 0.2;
+G2L["91"] = Instance.new("Frame", G2L["9"]);
+G2L["91"]["Visible"] = false;
+G2L["91"]["Active"] = true;
+G2L["91"]["ZIndex"] = 0;
+G2L["91"]["BorderSizePixel"] = 0;
+G2L["91"]["BackgroundColor3"] = Color3.fromRGB(53, 53, 53);
+G2L["91"]["Size"] = UDim2.new(0.7802, 0, 1.00699, 0);
+G2L["91"]["Position"] = UDim2.new(0.2198, 0, 0, 0);
+G2L["91"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["91"]["Name"] = [[MiscFrame]];
+G2L["91"]["BackgroundTransparency"] = 0.2;
 
 
 -- StarterGui.omarInkGame.Info.sigma.MiscFrame.UIStroke
-G2L["93"] = Instance.new("UIStroke", G2L["92"]);
-G2L["93"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["93"]["Thickness"] = 3;
+G2L["92"] = Instance.new("UIStroke", G2L["91"]);
+G2L["92"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["92"]["Thickness"] = 3;
 
 
 -- StarterGui.omarInkGame.Info.sigma.MiscFrame.UICorner
-G2L["94"] = Instance.new("UICorner", G2L["92"]);
-G2L["94"]["CornerRadius"] = UDim.new(0, 10);
+G2L["93"] = Instance.new("UICorner", G2L["91"]);
+G2L["93"]["CornerRadius"] = UDim.new(0, 10);
 
 
 -- StarterGui.omarInkGame.Info.sigma.MiscFrame.third
-G2L["95"] = Instance.new("TextButton", G2L["92"]);
-G2L["95"]["TextWrapped"] = true;
-G2L["95"]["TextTruncate"] = Enum.TextTruncate.AtEnd;
-G2L["95"]["BorderSizePixel"] = 0;
-G2L["95"]["TextColor3"] = Color3.fromRGB(240, 240, 240);
-G2L["95"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["95"]["TextSize"] = 14;
-G2L["95"]["TextScaled"] = true;
-G2L["95"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["95"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["95"]["Size"] = UDim2.new(0.75106, 0, 0.08456, 0);
-G2L["95"]["Name"] = [[third]];
-G2L["95"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["95"]["Text"] = [[Auto Skip Dialogue]];
-G2L["95"]["Position"] = UDim2.new(0.09635, 0, 0.07166, 0);
+G2L["94"] = Instance.new("TextButton", G2L["91"]);
+G2L["94"]["TextWrapped"] = true;
+G2L["94"]["TextTruncate"] = Enum.TextTruncate.AtEnd;
+G2L["94"]["BorderSizePixel"] = 0;
+G2L["94"]["TextColor3"] = Color3.fromRGB(240, 240, 240);
+G2L["94"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["94"]["TextSize"] = 14;
+G2L["94"]["TextScaled"] = true;
+G2L["94"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["94"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["94"]["Size"] = UDim2.new(0.75106, 0, 0.08456, 0);
+G2L["94"]["Name"] = [[third]];
+G2L["94"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["94"]["Text"] = [[Auto Skip Dialogue]];
+G2L["94"]["Position"] = UDim2.new(0.09635, 0, 0.07166, 0);
 
 
 -- StarterGui.omarInkGame.Info.sigma.MiscFrame.third.UICorner
-G2L["96"] = Instance.new("UICorner", G2L["95"]);
-G2L["96"]["CornerRadius"] = UDim.new(0, 10);
+G2L["95"] = Instance.new("UICorner", G2L["94"]);
+G2L["95"]["CornerRadius"] = UDim.new(0, 10);
 
 
 -- StarterGui.omarInkGame.Info.sigma.MiscFrame.third.UIStroke
-G2L["97"] = Instance.new("UIStroke", G2L["95"]);
-G2L["97"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["97"]["Thickness"] = 1.7;
-G2L["97"]["Color"] = Color3.fromRGB(155, 155, 155);
+G2L["96"] = Instance.new("UIStroke", G2L["94"]);
+G2L["96"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["96"]["Thickness"] = 1.7;
+G2L["96"]["Color"] = Color3.fromRGB(155, 155, 155);
 
 
 -- StarterGui.omarInkGame.Info.sigma.MiscFrame.third.soundclick
-G2L["98"] = Instance.new("LocalScript", G2L["95"]);
-G2L["98"]["Name"] = [[soundclick]];
+G2L["97"] = Instance.new("LocalScript", G2L["94"]);
+G2L["97"]["Name"] = [[soundclick]];
 
 
 -- StarterGui.omarInkGame.Info.sigma.MiscFrame.third.fingerprint
-G2L["99"] = Instance.new("ImageLabel", G2L["95"]);
-G2L["99"]["BorderSizePixel"] = 0;
-G2L["99"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["99"]["Image"] = [[rbxassetid://12333784627]];
-G2L["99"]["Size"] = UDim2.new(0.13479, 0, 0.9265, 0);
-G2L["99"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["99"]["BackgroundTransparency"] = 1;
-G2L["99"]["Name"] = [[fingerprint]];
-G2L["99"]["Position"] = UDim2.new(0.83573, 0, 0.05474, 0);
+G2L["98"] = Instance.new("ImageLabel", G2L["94"]);
+G2L["98"]["BorderSizePixel"] = 0;
+G2L["98"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["98"]["Image"] = [[rbxassetid://12333784627]];
+G2L["98"]["Size"] = UDim2.new(0.13479, 0, 0.9265, 0);
+G2L["98"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["98"]["BackgroundTransparency"] = 1;
+G2L["98"]["Name"] = [[fingerprint]];
+G2L["98"]["Position"] = UDim2.new(0.83573, 0, 0.05474, 0);
 
 
 -- StarterGui.omarInkGame.Info.sigma.MiscFrame.third.UIPadding
-G2L["9a"] = Instance.new("UIPadding", G2L["95"]);
-G2L["9a"]["PaddingLeft"] = UDim.new(0, 10);
+G2L["99"] = Instance.new("UIPadding", G2L["94"]);
+G2L["99"]["PaddingLeft"] = UDim.new(0, 10);
 
 
 -- StarterGui.omarInkGame.Info.sigma.MiscFrame.third.LocalScript
-G2L["9b"] = Instance.new("LocalScript", G2L["95"]);
+G2L["9a"] = Instance.new("LocalScript", G2L["94"]);
 
 
 
 -- StarterGui.omarInkGame.Info.sigma.MiscFrame.four
-G2L["9c"] = Instance.new("TextButton", G2L["92"]);
-G2L["9c"]["TextWrapped"] = true;
-G2L["9c"]["TextTruncate"] = Enum.TextTruncate.AtEnd;
-G2L["9c"]["BorderSizePixel"] = 0;
-G2L["9c"]["TextColor3"] = Color3.fromRGB(240, 240, 240);
-G2L["9c"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["9c"]["TextSize"] = 14;
-G2L["9c"]["TextScaled"] = true;
-G2L["9c"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["9c"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["9c"]["Size"] = UDim2.new(0.75106, 0, 0.08456, 0);
-G2L["9c"]["Name"] = [[four]];
-G2L["9c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["9c"]["Text"] = [[Inf Jump]];
-G2L["9c"]["Position"] = UDim2.new(0.09635, 0, 0.22913, 0);
+G2L["9b"] = Instance.new("TextButton", G2L["91"]);
+G2L["9b"]["TextWrapped"] = true;
+G2L["9b"]["TextTruncate"] = Enum.TextTruncate.AtEnd;
+G2L["9b"]["BorderSizePixel"] = 0;
+G2L["9b"]["TextColor3"] = Color3.fromRGB(240, 240, 240);
+G2L["9b"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["9b"]["TextSize"] = 14;
+G2L["9b"]["TextScaled"] = true;
+G2L["9b"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["9b"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["9b"]["Size"] = UDim2.new(0.75106, 0, 0.08456, 0);
+G2L["9b"]["Name"] = [[four]];
+G2L["9b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["9b"]["Text"] = [[Inf Jump]];
+G2L["9b"]["Position"] = UDim2.new(0.09635, 0, 0.22913, 0);
 
 
 -- StarterGui.omarInkGame.Info.sigma.MiscFrame.four.UICorner
-G2L["9d"] = Instance.new("UICorner", G2L["9c"]);
-G2L["9d"]["CornerRadius"] = UDim.new(0, 10);
+G2L["9c"] = Instance.new("UICorner", G2L["9b"]);
+G2L["9c"]["CornerRadius"] = UDim.new(0, 10);
 
 
 -- StarterGui.omarInkGame.Info.sigma.MiscFrame.four.UIStroke
-G2L["9e"] = Instance.new("UIStroke", G2L["9c"]);
-G2L["9e"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["9e"]["Thickness"] = 1.7;
-G2L["9e"]["Color"] = Color3.fromRGB(155, 155, 155);
+G2L["9d"] = Instance.new("UIStroke", G2L["9b"]);
+G2L["9d"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["9d"]["Thickness"] = 1.7;
+G2L["9d"]["Color"] = Color3.fromRGB(155, 155, 155);
 
 
 -- StarterGui.omarInkGame.Info.sigma.MiscFrame.four.soundclick
-G2L["9f"] = Instance.new("LocalScript", G2L["9c"]);
-G2L["9f"]["Name"] = [[soundclick]];
+G2L["9e"] = Instance.new("LocalScript", G2L["9b"]);
+G2L["9e"]["Name"] = [[soundclick]];
 
 
 -- StarterGui.omarInkGame.Info.sigma.MiscFrame.four.fingerprint
-G2L["a0"] = Instance.new("ImageLabel", G2L["9c"]);
-G2L["a0"]["BorderSizePixel"] = 0;
-G2L["a0"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["a0"]["Image"] = [[rbxassetid://12333784627]];
-G2L["a0"]["Size"] = UDim2.new(0.13479, 0, 0.9265, 0);
-G2L["a0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["a0"]["BackgroundTransparency"] = 1;
-G2L["a0"]["Name"] = [[fingerprint]];
-G2L["a0"]["Position"] = UDim2.new(0.83573, 0, 0.05474, 0);
+G2L["9f"] = Instance.new("ImageLabel", G2L["9b"]);
+G2L["9f"]["BorderSizePixel"] = 0;
+G2L["9f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["9f"]["Image"] = [[rbxassetid://12333784627]];
+G2L["9f"]["Size"] = UDim2.new(0.13479, 0, 0.9265, 0);
+G2L["9f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["9f"]["BackgroundTransparency"] = 1;
+G2L["9f"]["Name"] = [[fingerprint]];
+G2L["9f"]["Position"] = UDim2.new(0.83573, 0, 0.05474, 0);
 
 
 -- StarterGui.omarInkGame.Info.sigma.MiscFrame.four.UIPadding
-G2L["a1"] = Instance.new("UIPadding", G2L["9c"]);
-G2L["a1"]["PaddingLeft"] = UDim.new(0, 10);
+G2L["a0"] = Instance.new("UIPadding", G2L["9b"]);
+G2L["a0"]["PaddingLeft"] = UDim.new(0, 10);
 
 
 -- StarterGui.omarInkGame.Info.sigma.MiscFrame.four.LocalScript
-G2L["a2"] = Instance.new("LocalScript", G2L["9c"]);
+G2L["a1"] = Instance.new("LocalScript", G2L["9b"]);
 
 
 
 -- StarterGui.omarInkGame.Info.drag localscript
-G2L["a3"] = Instance.new("LocalScript", G2L["3"]);
-G2L["a3"]["Name"] = [[drag localscript]];
+G2L["a2"] = Instance.new("LocalScript", G2L["3"]);
+G2L["a2"]["Name"] = [[drag localscript]];
 
 
 -- StarterGui.omarInkGame.Changer
-G2L["a4"] = Instance.new("LocalScript", G2L["1"]);
-G2L["a4"]["Name"] = [[Changer]];
+G2L["a3"] = Instance.new("LocalScript", G2L["1"]);
+G2L["a3"]["Name"] = [[Changer]];
 
 
 -- StarterGui.omarInkGame.Controls
@@ -2006,144 +2001,112 @@ local script = G2L["53"];
 	local gui    = script.Parent  -- MainFrame
 	
 	-- UI references
-	local chooserLabel = gui:WaitForChild("Chooser")
-	local first1  = gui:WaitForChild("first1")
-	local first2  = gui:WaitForChild("first2")
-	local first3  = gui:WaitForChild("first3")
-	local help1   = gui:WaitForChild("help1")
-	local second1 = gui:WaitForChild("second1")
-	local third1  = gui:WaitForChild("third1")
-	local third2  = gui:WaitForChild("third2")
-	local four1   = gui:WaitForChild("four1")
-	local five1   = gui:WaitForChild("five1")
-	local five2   = gui:WaitForChild("five2")
-	local five3   = gui:WaitForChild("five3")
-	local six1    = gui:WaitForChild("six1")
-	local seven1  = gui:WaitForChild("seven1")
-	local red1    = gui:WaitForChild("red1")
-	local red2    = gui:WaitForChild("red2")
-	local red3    = gui:WaitForChild("red3")
-	local blue1   = gui:WaitForChild("blue1")
-	local blue2   = gui:WaitForChild("blue2")
-	local blue3   = gui:WaitForChild("blue3")
+	local chooserLabel     = gui:WaitForChild("Chooser")
+	-- Buttons
+	local firstBtn1        = gui:WaitForChild("first1")
+	local firstBtn2        = gui:WaitForChild("first2")
+	local firstBtn3        = gui:WaitForChild("first3")
+	local help1            = gui:WaitForChild("help1")
+	local second1          = gui:WaitForChild("second1")
+	local third1           = gui:WaitForChild("third1")
+	local third2           = gui:WaitForChild("third2")
+	local four1            = gui:WaitForChild("four1")
+	local five1            = gui:WaitForChild("five1")
+	local five2            = gui:WaitForChild("five2")
+	local five3            = gui:WaitForChild("five3")
+	local six1             = gui:WaitForChild("six1")
+	local seven1           = gui:WaitForChild("seven1")
+	local red1, red2, red3 = gui:WaitForChild("red1"), gui:WaitForChild("red2"), gui:WaitForChild("red3")
+	local blue1, blue2, blue3 = gui:WaitForChild("blue1"), gui:WaitForChild("blue2"), gui:WaitForChild("blue3")
+	-- TextLabel specifically for RedLightGreenLight
+	local firstLabel1       = gui:WaitForChild("first1Label")
 	
 	-- Value to track
 	local gameValue = workspace:WaitForChild("Values"):WaitForChild("CurrentGame")
 	
-	-- List of valid modes
-	local validModes = {
-		RedLightGreenLight = true,
-		Dalgona            = true,
-		LightsOut          = true,
-		TugOfWar           = true,
-		GlassBridge        = true,
-		Mingle             = true,
-		HideAndSeek        = true,
-	}
+	-- Valid modes
+	local validModes = {RedLightGreenLight=true,Dalgona=true,LightsOut=true,TugOfWar=true,GlassBridge=true,Mingle=true,HideAndSeek=true}
 	
-	-- Utility to hide everything
+	-- Helper to hide all
 	local function hideAll()
-		-- hide all mode buttons
-		first1.Visible, first2.Visible, first3.Visible = false, false, false
-		help1.Visible   = false
+		firstBtn1.Visible, firstBtn2.Visible, firstBtn3.Visible = false, false, false
+		help1.Visible = false
 		second1.Visible = false
 		third1.Visible, third2.Visible = false, false
-		four1.Visible   = false
+		four1.Visible = false
 		five1.Visible, five2.Visible = false, false
-		five3.Visible   = false
-		six1.Visible    = false
-		seven1.Visible  = false
-		red1.Visible, red2.Visible, red3.Visible     = false, false, false
+		five3.Visible = false
+		six1.Visible = false
+		seven1.Visible = false
+		red1.Visible, red2.Visible, red3.Visible = false, false, false
 		blue1.Visible, blue2.Visible, blue3.Visible = false, false, false
+		firstLabel1.Visible = false
 	end
 	
-	-- Waiting animation control
-	local isWaiting, animConn = false, nil
-	
-	local function startWaitingAnimation()
+	-- Waiting animation
+	local isWaiting, conn = false, nil
+	local function startWaiting()
 		if isWaiting then return end
 		isWaiting = true
-		animConn = RunService.Heartbeat:Connect(function()
-			if not isWaiting then
-				animConn:Disconnect()
-				return
-			end
-			local dots = (math.floor(tick() * 2) % 3) + 1
-			chooserLabel.Text = "Waiting for gamemode" .. string.rep(".", dots)
+		conn = RunService.Heartbeat:Connect(function()
+			if not isWaiting then conn:Disconnect() return end
+			local dots = (math.floor(tick()*2)%3)+1
+			chooserLabel.Text = "Waiting for gamemode"..string.rep(".",dots)
 		end)
 	end
-	
-	local function stopWaitingAnimation()
-		if not isWaiting then return end
+	local function stopWaiting()
+		if conn then conn:Disconnect() end
 		isWaiting = false
-		if animConn then
-			animConn:Disconnect()
-			animConn = nil
-		end
 	end
 	
-	-- Detect and show vest teams anytime
+	-- Vest detection
 	local function detectVest()
-		local liveFolder = workspace:FindFirstChild("Live")
-		if not liveFolder then return end
-		for _, model in ipairs(liveFolder:GetChildren()) do
-			if model:FindFirstChild("RedVest") then
-				seven1.Visible = true
-				seven1.Text = "Team is Red"
-				seven1.TextColor3 = Color3.fromRGB(255, 0, 0)
-				red1.Visible, red2.Visible, red3.Visible = true, true, true
-				return
-			elseif model:FindFirstChild("BlueVest") then
-				seven1.Visible = true
-				seven1.Text = "Team is Blue"
-				seven1.TextColor3 = Color3.fromRGB(0, 0, 255)
-				blue1.Visible, blue2.Visible, blue3.Visible = true, true, true
-				return
+		local live = workspace:FindFirstChild("Live")
+		local mdl = live and live:FindFirstChild(player.Name)
+		if not mdl then return end
+		if mdl:FindFirstChild("RedVest") then
+			seven1.Text = "Team is Red"
+			seven1.TextColor3 = Color3.new(1,0,0)
+			red1.Visible, red2.Visible, red3.Visible = true, true, true
+		elseif mdl:FindFirstChild("BlueVest") then
+			seven1.Text = "Team is Blue"
+			seven1.TextColor3 = Color3.new(0,0,1)
+			blue1.Visible, blue2.Visible, blue3.Visible = true, true, true
+		end
+		seven1.Visible = true
+	end
+	
+	-- Update UI
+	local function updateUI()
+		local v = gameValue.Value or ""
+		hideAll()
+		stopWaiting()
+		if not validModes[v] then
+			chooserLabel.Text = "Waiting for gamemode"
+			startWaiting()
+		else
+			chooserLabel.Text = v
+			if v=="RedLightGreenLight" then
+				firstBtn1.Visible, firstBtn2.Visible, firstBtn3.Visible = true, true, true
+				help1.Visible = true
+				firstLabel1.Visible = true
+			elseif v=="Dalgona" then
+				second1.Visible = true
+			elseif v=="LightsOut" then
+				third1.Visible, third2.Visible = true, true
+			elseif v=="TugOfWar" then
+				four1.Visible = true
+			elseif v=="GlassBridge" then
+				five1.Visible, five2.Visible, five3.Visible = true, true, true
+			elseif v=="Mingle" then
+				six1.Visible = true
+			elseif v=="HideAndSeek" then
+				detectVest()
 			end
 		end
 	end
 	
-	-- Main UI update
-	local function updateUI()
-		local v = gameValue.Value or ""
-	
-		-- always hide and reset
-		hideAll()
-		stopWaitingAnimation()
-	
-		-- Update chooser or waiting
-		if not validModes[v] then
-			chooserLabel.Text = "Waiting for gamemode"
-			startWaitingAnimation()
-		else
-			chooserLabel.Text = v
-		end
-	
-		-- mode-specific UI
-		if v == "RedLightGreenLight" then
-			first1.Visible, first2.Visible, first3.Visible = true, true, true
-			help1.Visible = true
-		elseif v == "Dalgona" then
-			second1.Visible = true
-		elseif v == "LightsOut" then
-			third1.Visible, third2.Visible = true, true
-		elseif v == "TugOfWar" then
-			four1.Visible = true
-		elseif v == "GlassBridge" then
-			five1.Visible, five2.Visible, five3.Visible = true, true, true
-		elseif v == "Mingle" then
-			six1.Visible = true
-			-- keep HideAndSeek branch optional; detection covers it
-		end
-	
-		-- always check vest presence
-		detectVest()
-	end
-	
-	-- Connect change listener
 	gameValue:GetPropertyChangedSignal("Value"):Connect(updateUI)
-	
-	-- Initial call
 	updateUI()
 	
 end;
@@ -2477,23 +2440,9 @@ local script = G2L["76"];
 	
 end;
 task.spawn(C_76);
--- StarterGui.omarInkGame.Info.sigma.MainFrame.seven1.tracker
-local function C_78()
-local script = G2L["78"];
-	local textLabel = script.Parent
-	local currentAlive = workspace:WaitForChild("Values"):WaitForChild("CurrentAlive")
-	
-	-- Keep updating every 0.1 seconds
-	while true do
-		textLabel.Text = "Alive: " .. currentAlive.Value
-		task.wait(0.1)
-	end
-	
-end;
-task.spawn(C_78);
 -- StarterGui.omarInkGame.Info.sigma.MainFrame.red3.soundclick
-local function C_7c()
-local script = G2L["7c"];
+local function C_7b()
+local script = G2L["7b"];
 	local btn = script.Parent
 	local soundService = game:GetService("SoundService")
 	
@@ -2509,10 +2458,10 @@ local script = G2L["7c"];
 	end)
 	
 end;
-task.spawn(C_7c);
+task.spawn(C_7b);
 -- StarterGui.omarInkGame.Info.sigma.MainFrame.red3.realone
-local function C_7e()
-local script = G2L["7e"];
+local function C_7d()
+local script = G2L["7d"];
 	local button = script.Parent
 	local player = game.Players.LocalPlayer
 	local UIS = game:GetService("UserInputService")
@@ -2598,10 +2547,10 @@ local script = G2L["7e"];
 	end)
 	
 end;
-task.spawn(C_7e);
+task.spawn(C_7d);
 -- StarterGui.omarInkGame.Info.sigma.MainFrame.blue3.soundclick
-local function C_82()
-local script = G2L["82"];
+local function C_81()
+local script = G2L["81"];
 	local btn = script.Parent
 	local soundService = game:GetService("SoundService")
 	
@@ -2617,10 +2566,10 @@ local script = G2L["82"];
 	end)
 	
 end;
-task.spawn(C_82);
+task.spawn(C_81);
 -- StarterGui.omarInkGame.Info.sigma.MainFrame.blue3.realone
-local function C_84()
-local script = G2L["84"];
+local function C_83()
+local script = G2L["83"];
 	local button      = script.Parent
 	local uiStroke    = button:WaitForChild("UIStroke")
 	local mapFolder   = workspace:WaitForChild("HideAndSeekMap"):WaitForChild("NEWFIXEDDOORS")
@@ -2697,10 +2646,10 @@ local script = G2L["84"];
 	end)
 	
 end;
-task.spawn(C_84);
+task.spawn(C_83);
 -- StarterGui.omarInkGame.Info.sigma.MainFrame.red1.soundclick
-local function C_88()
-local script = G2L["88"];
+local function C_87()
+local script = G2L["87"];
 	local btn = script.Parent
 	local soundService = game:GetService("SoundService")
 	
@@ -2716,10 +2665,10 @@ local script = G2L["88"];
 	end)
 	
 end;
-task.spawn(C_88);
+task.spawn(C_87);
 -- StarterGui.omarInkGame.Info.sigma.MainFrame.red1.realone
-local function C_8a()
-local script = G2L["8a"];
+local function C_89()
+local script = G2L["89"];
 	-- LocalScript: Place this inside a TextButton
 	
 	local Players = game:GetService("Players")
@@ -2729,28 +2678,52 @@ local script = G2L["8a"];
 	local button = script.Parent
 	local uiStroke = button:FindFirstChildOfClass("UIStroke")
 	
+	-- Movement speed for interpolation
+	local MOVE_SPEED = 100 -- studs per second
+	
 	-- State variables
 	local originalStrokeColor = uiStroke and uiStroke.Color or Color3.new(1,1,1)
 	local isOn = false
 	local lastCFrame = nil
 	local followConnection = nil
 	
-	-- Utility: Find target model in Workspace.Live with a child named "BlueVest"
-	local function findTarget()
+	-- Utility: Find closest alive target model in Workspace.Live with a child named "BlueVest"
+	local function findClosestTarget()
 		local liveFolder = workspace:FindFirstChild("Live")
-		if not liveFolder then return nil end
+		if not liveFolder or not player.Character then return nil end
+		local hrpPlayer = player.Character:FindFirstChild("HumanoidRootPart")
+		if not hrpPlayer then return nil end
+	
+		local closestModel = nil
+		local shortestDist = math.huge
+	
 		for _, model in ipairs(liveFolder:GetDescendants()) do
-			if model:IsA("Model") and model:FindFirstChild("BlueVest") and model:FindFirstChild("HumanoidRootPart") then
+			if model:IsA("Model") and model:FindFirstChild("BlueVest") then
+				local targetHRP = model:FindFirstChild("HumanoidRootPart")
 				local humanoid = model:FindFirstChildOfClass("Humanoid")
-				if humanoid and humanoid.Health > 0 then
-					return model
+				if targetHRP and humanoid and humanoid.Health > 0 then
+					local dist = (targetHRP.Position - hrpPlayer.Position).Magnitude
+					if dist < shortestDist then
+						shortestDist = dist
+						closestModel = model
+					end
 				end
 			end
 		end
-		return nil
+		return closestModel
 	end
 	
-	-- Start following the target
+	-- Disable or enable collisions on character parts
+	local function setCollisions(enabled)
+		if not player.Character then return end
+		for _, part in ipairs(player.Character:GetDescendants()) do
+			if part:IsA("BasePart") then
+				part.CanCollide = enabled
+			end
+		end
+	end
+	
+	-- Start following the target by interpolation (moves through walls)
 	local function startFollow(targetModel)
 		if not targetModel then return end
 		local character = player.Character
@@ -2758,29 +2731,32 @@ local script = G2L["8a"];
 		local hrp = character:FindFirstChild("HumanoidRootPart")
 		if not hrp then return end
 	
-		followConnection = RunService.RenderStepped:Connect(function()
+		-- Disable collisions so you can pass through walls
+		setCollisions(false)
+	
+		followConnection = RunService.RenderStepped:Connect(function(dt)
 			if not targetModel.Parent then
-				-- Target removed
 				stopFollow()
 				return
 			end
 			local targetHRP = targetModel:FindFirstChild("HumanoidRootPart")
 			local targetHumanoid = targetModel:FindFirstChildOfClass("Humanoid")
-			if not targetHRP or not targetHumanoid then return end
-			if targetHumanoid.Health <= 0 then
-				-- Target died
+			if not targetHRP or not targetHumanoid or targetHumanoid.Health <= 0 then
 				stopFollow()
 				return
 			end
 	
-			-- Teleport and face directly behind (zero gap)
+			-- Compute desired CFrame directly behind target
 			local targetCFrame = targetHRP.CFrame
-			local backPos = targetCFrame.Position - targetCFrame.LookVector * 0
-			hrp.CFrame = CFrame.new(backPos, targetCFrame.Position)
+			local desiredPos = targetCFrame.Position - targetCFrame.LookVector * 0
+			local desiredCFrame = CFrame.new(desiredPos, targetCFrame.Position)
+	
+			-- Interpolate towards desired CFrame
+			hrp.CFrame = hrp.CFrame:Lerp(desiredCFrame, math.clamp(MOVE_SPEED * dt / (hrp.Position - desiredPos).Magnitude, 0, 1))
 		end)
 	end
 	
-	-- Stop following and restore position
+	-- Stop following, restore position and collisions
 	function stopFollow()
 		if followConnection then
 			followConnection:Disconnect()
@@ -2790,16 +2766,20 @@ local script = G2L["8a"];
 		if uiStroke then
 			uiStroke.Color = originalStrokeColor
 		end
-		if lastCFrame and player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
-			player.Character.HumanoidRootPart.CFrame = lastCFrame
+		-- Re-enable collisions
+		setCollisions(true)
+		-- Restore last position
+		if lastCFrame and player.Character then
+			local hrp = player.Character:FindFirstChild("HumanoidRootPart")
+			if hrp then
+				hrp.CFrame = lastCFrame
+			end
 		end
 	end
 	
 	-- Toggle function
 	local function toggle()
 		isOn = not isOn
-	
-		-- UI feedback
 		if uiStroke then
 			uiStroke.Color = isOn and Color3.fromRGB(0, 255, 0) or originalStrokeColor
 		end
@@ -2811,12 +2791,12 @@ local script = G2L["8a"];
 				lastCFrame = hrp.CFrame
 			end
 	
-			-- Acquire target and start following
-			local target = findTarget()
+			-- Acquire closest target and start following
+			local target = findClosestTarget()
 			if target then
 				startFollow(target)
 			else
-				warn("No valid target found or target dead.")
+				warn("No valid target found.")
 				stopFollow()
 			end
 		else
@@ -2835,10 +2815,10 @@ local script = G2L["8a"];
 	end)
 	
 end;
-task.spawn(C_8a);
+task.spawn(C_89);
 -- StarterGui.omarInkGame.Info.sigma.MainFrame.red2.soundclick
-local function C_8e()
-local script = G2L["8e"];
+local function C_8d()
+local script = G2L["8d"];
 	local btn = script.Parent
 	local soundService = game:GetService("SoundService")
 	
@@ -2854,10 +2834,10 @@ local script = G2L["8e"];
 	end)
 	
 end;
-task.spawn(C_8e);
+task.spawn(C_8d);
 -- StarterGui.omarInkGame.Info.sigma.MainFrame.red2.realone
-local function C_90()
-local script = G2L["90"];
+local function C_8f()
+local script = G2L["8f"];
 	-- LocalScript inside your TextButton
 	local button        = script.Parent
 	local uiStroke      = button:WaitForChild("UIStroke")
@@ -2922,10 +2902,10 @@ local script = G2L["90"];
 	end)
 	
 end;
-task.spawn(C_90);
+task.spawn(C_8f);
 -- StarterGui.omarInkGame.Info.sigma.MiscFrame.third.soundclick
-local function C_98()
-local script = G2L["98"];
+local function C_97()
+local script = G2L["97"];
 	local btn = script.Parent
 	local soundService = game:GetService("SoundService")
 	
@@ -2941,10 +2921,10 @@ local script = G2L["98"];
 	end)
 	
 end;
-task.spawn(C_98);
+task.spawn(C_97);
 -- StarterGui.omarInkGame.Info.sigma.MiscFrame.third.LocalScript
-local function C_9b()
-local script = G2L["9b"];
+local function C_9a()
+local script = G2L["9a"];
 	local button = script.Parent
 	local uistroke = button:FindFirstChildOfClass("UIStroke")
 	local fingerprint = button:FindFirstChild("fingerprint")
@@ -2978,10 +2958,10 @@ local script = G2L["9b"];
 	button.MouseButton1Click:Connect(toggle)
 	
 end;
-task.spawn(C_9b);
+task.spawn(C_9a);
 -- StarterGui.omarInkGame.Info.sigma.MiscFrame.four.soundclick
-local function C_9f()
-local script = G2L["9f"];
+local function C_9e()
+local script = G2L["9e"];
 	local btn = script.Parent
 	local soundService = game:GetService("SoundService")
 	
@@ -2997,10 +2977,10 @@ local script = G2L["9f"];
 	end)
 	
 end;
-task.spawn(C_9f);
+task.spawn(C_9e);
 -- StarterGui.omarInkGame.Info.sigma.MiscFrame.four.LocalScript
-local function C_a2()
-local script = G2L["a2"];
+local function C_a1()
+local script = G2L["a1"];
 	local button = script.Parent
 	local uistroke = button:WaitForChild("UIStroke")
 	local fingerprint = button:WaitForChild("fingerprint")
@@ -3048,10 +3028,10 @@ local script = G2L["a2"];
 	end)
 	
 end;
-task.spawn(C_a2);
+task.spawn(C_a1);
 -- StarterGui.omarInkGame.Info.drag localscript
-local function C_a3()
-local script = G2L["a3"];
+local function C_a2()
+local script = G2L["a2"];
 	local frame = script.Parent
 	local UIS = game:GetService("UserInputService")
 	
@@ -3105,10 +3085,10 @@ local script = G2L["a3"];
 	end)
 	
 end;
-task.spawn(C_a3);
+task.spawn(C_a2);
 -- StarterGui.omarInkGame.Changer
-local function C_a4()
-local script = G2L["a4"];
+local function C_a3()
+local script = G2L["a3"];
 	-- LocalScript: UISelectionController (Esp & Misc Only)
 	print("[UISelectionController] Script initializing...")
 	
@@ -3215,6 +3195,6 @@ local script = G2L["a4"];
 	switchTo("Esp")
 	
 end;
-task.spawn(C_a4);
+task.spawn(C_a3);
 
 return G2L["1"], require;
